@@ -1,0 +1,10 @@
+
+.bg-1 {
+  background-color: #030207;
+  color: #da8044;
+}
+.header {
+  margin-left: 200px;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+}
