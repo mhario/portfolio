@@ -3,34 +3,32 @@
   overflow: hidden;
   min-width: 220px;
 }
+
+/* backgrounds */
 .bg-img img {
   float:right;
 }
-
 .bg-1 {
   background-color: #030207;
   color: #da8044;
 }
-
-.bg-2{
-  background-color: #da8044;
-  color: #030207;
+.bg-2 {
+  background-color: #9a4004;
+  color: #000;
 }
 
-
+/* section headers */
 .header {
   padding: 2em;
-  text-align: left;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
 }
 
-.name-header {
-  /* must be after .header */
-  text-align: right;
-  padding-bottom: 4em;
+.section {
+  text-align: left;
+  padding: 2em;
 }
 
 .section-text {
-  text-align: left;
-  padding-bottom: 2em;
+  opacity: 0.8;
 }
