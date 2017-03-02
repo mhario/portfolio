@@ -232,17 +232,20 @@ color: #fff;
 	float:left;
 	width:60px;
 }
-.service-list-col1 i{
+.service-list p{
+  padding: 1em;
+}
+/*.service-list-col1 i{
 	font-style:normal;
 	font-size:38px;
 	display:block;
 	color:#222;
 	font-family: 'FontAwesome';
 	line-height:38px;
-}
-.service-list-col2{
+}*/
+/*.service-list-col2{
 	overflow:hidden;
-}
+}*/
 .main-section.alabaster{
 	background:#fafafa;
 }
@@ -272,6 +275,11 @@ color: #fff;
 .featured-box-col1{
 	width:60px;
 	float:left;
+}
+.featured-box-col1 img{
+	display:block;
+	width:50;
+	height:50;
 }
 .featured-box-col1 i{
 	display:block;
@@ -404,7 +412,7 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../img/section-bg1.jpg) center center no-repeat;
+	/*background:url(../img/section-bg1.jpg) center center no-repeat;*/
 	background-size:cover;
 	padding:55px 0;
 	text-align:center;
@@ -606,7 +614,7 @@ border: 2px solid #fff;
 	margin:20px 0 70px;
 	text-transform:uppercase;
 	font-size:42px;
-	color:#fff;
+	color:#da8044;
 }
 
 
@@ -671,20 +679,14 @@ border: 2px solid #fff;
 .social-link li a:hover, .social-link li a:focus{
 	text-decoration:none;
 }
-.twitter a:hover {
-	background: #55acee;
-}
 .facebook a:hover {
 	background: #3b5998;
 }
-.pinterest a:hover {
-	background: #cb2026;
+.linkedin a:hover {
+  background: #3b5998;
 }
-.gplus a:hover {
-	background: #dd4b39;
-}
-.dribbble a:hover {
-	background: #ea4c89;
+.github a:hover {
+  background: #3b5998;
 }
 
 .form{
