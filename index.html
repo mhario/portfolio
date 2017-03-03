@@ -40,8 +40,8 @@
 <header class="header" id="header"><!--header-start-->
 	<div class="container">
 	  <a href="#service" class="animated servicelink"><h1 class="animated fadeInDown delay-07s">Mark Hario</h1></a>
-	  <ul class="header-text animated fadeInUp delay-1s">
-	  	<li>JavaScript Web Developer &amp; </li><br />
+	  <ul class="header-text animated fadeInUp delay-1s ">
+	  	<li>JavaScript Web Developer &amp; </li>
 			<li>Fullstack Software Engineer</li>
 	  </ul>
 	      <!-- <a class="link animated fadeInUp delay-1s servicelink" href="#service">Get Started</a> -->
@@ -54,7 +54,7 @@
     	<li><a href="#header">Home</a></li>
       <li><a href="#service">About</a></li>
       <li><a href="#Portfolio">Skills</a></li>
-      <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
+      <!-- <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li> -->
       <li><a href="#client">Portfolio</a></li>
       <li><a href="#team">Media</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -70,7 +70,7 @@
 		<h2>About</h2>
 		<h6>JavaScript Web Developer &amp; Fullstack Software Engineer</h6>
 	    <div class="row">
-	    	<div class="col-sm-6 wow fadeInLeft delay-05s">
+	    	<div class="col-sm-6 col-sm-offset-1 wow fadeInLeft delay-05s">
 	      	<div class="service-list">
 						<p>My passion for coding began at a young age. I was maybe ten years old when I picked up a copy of Stroustrup’s own C++ text. Working through the book, I wrote my first linked list using a borrowed compiler and an ancient computer. But coding was always a hobby to me; since then, I have become a welding engineer and a robot programmer.</p>
 
@@ -79,7 +79,7 @@
 						<p>Now that I have made this pivot with my career, I am very excited to pursue opportunities in full stack software engineering and web development, or mobile app development. I intend to move to Boulder, Colorado and will be seeking employment in that city. That said, remote work is also a very exciting prospect.</p>
 	        </div>
 	      </div>
-	    	<figure class="col-sm-6  text-right wow fadeInUp delay-02s">
+	    	<figure class="col-sm-4 text-right wow fadeInUp delay-02s service-img">
 	    		<img src="img/profile.png" alt="">
 	    	</figure>
 
@@ -93,46 +93,78 @@
   	<div class="row">
     	<div class="col-lg-9 col-lg-offset-2 col-sm-8 featured-work">
 	    	<h2>skills</h2>
-	    	<P class="padding-b">I can do a whole bunch of full-stacky type stuff!</P>
-	    	<div class="featured-box">
+				<P class="padding-b">I can do a whole bunch of full-stacky type stuff!</P>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-lg-offset-1 col-xs-12 featured-work">
+	    	<div class="featured-box row">
 	      	<div class="featured-box-col1 wow fadeInRight delay-02s">
-	        	<img src="./img/react-logo.svg">
+	        	<img src="./img/node-logo.png">
           </div>
         	<div class="featured-box-col2 wow fadeInRight delay-02s">
-	          <h3>React</h3>
-	          <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+	          <h3>Node / Express</h3>
           </div>
         </div>
-        <div class="featured-box">
+        <div class="featured-box row">
         	<div class="featured-box-col1 wow fadeInRight delay-04s">
-        		<img src="./img/node-logo.svg">
+        		<img src="./img/react-logo.svg">
           </div>
         	<div class="featured-box-col2 wow fadeInRight delay-04s">
-	          <h3>neatly packaged</h3>
-	          <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+	          <h3>React / Redux</h3>
           </div>
         </div>
-        <div class="featured-box">
+        <div class="featured-box row">
         	<div class="featured-box-col1 wow fadeInRight delay-06s">
-        		<i class="fa-gift"></i>
+        		<img src="./img/postgres-logo.svg">
           </div>
         	<div class="featured-box-col2 wow fadeInRight delay-06s">
-	          <h3>SEO optimized</h3>
-	          <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+	          <h3>Postgres</h3>
           </div>
       	</div>
         <a class="Learn-More" href="#">Learn More</a>
       </div>
+			<div class="col-lg-6 col-lg-offset-1 temp">
+					<ul>
+						<li>Git</li>
+						<li>JavaScript</li>
+						<li>react</li>
+						<li>redux</li>
+						<li>node</li>
+						<li>office</li>
+						<li>welding</li>
+						<li>web dev</li>
+						<li>react-redux</li>
+						<li>GitHub</li>
+						<li>DOE</li>
+						<li>HTML</li>
+						<li>Express.js</li>
+						<li>jQuer</li>
+						<li>Robotics</li>
+						<li>HTML 5</li>
+					</ul>
+			</div>
     </div>
 	</div>
 </section><!--main-section alabaster-end-->
 
 
 <section class="main-section client-part" id="client"><!--main-section client-part-start-->
-		<div class="container">
-			<h2>Portfolio</h2>
-			<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
-	
+	<div class="container">
+		<h2>Projects</h2>
+		<!-- <h6>Fresh portfolio of designs that will keep you wanting more.</h6> -->
+		<div class="row">
+			<div class="temp col-xs-12 col-md-6">
+				<p>GOL</p>
+			</div>
+			<div class="temp col-xs-12 col-md-6">
+				<p>BiteSwipe</p>
+			</div>
+			<div class="temp col-xs-12 col-md-6">
+				<p>Codsworth</p>
+			</div>
+		</div>
+	</div>
 </section><!--main-section client-part-end-->
 
 <section class="main-section team" id="team"><!--main-section team-start-->
@@ -175,38 +207,33 @@
 
 <section class="business-talking"><!--business-talking-start-->
 	<div class="container">
-        <h2>Contact</h2>
-    </div>
+	  <h2>Contact</h2>
+  </div>
 </section><!--business-talking-end-->
 <div class="container">
-<section class="main-section contact" id="contact">
-
-        <div class="row">
-        	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
-            	<div class="contact-info-box address clearfix">
-                	<h3><i class=" icon-map-marker"></i>Address:</h3>
-                	<span>308 Negra Arroyo Lane<br>Albuquerque, New Mexico, 87111.</span>
-                </div>
-                <div class="contact-info-box phone clearfix">
-                	<h3><i class="fa-phone"></i>Phone:</h3>
-                	<span>1-800-BOO-YAHH</span>
-                </div>
-                <div class="contact-info-box email clearfix">
-                	<h3><i class="fa-pencil"></i>email:</h3>
-                	<span>hello@knightstudios.com</span>
-                </div>
-            	<div class="contact-info-box hours clearfix">
-                	<h3><i class="fa-clock-o"></i>Hours:</h3>
-                	<span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
-                </div>
-                <ul class="social-link">
-                  <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
-                  <li class="github"><a href="#"><i class="fa-github"></i></a></li>
-                  <li class="linkedIn"><a href="#"><i class="fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </div>
-</section>
+	<section class="main-section contact" id="contact">
+		<div class="row">
+			<div class="col-lg-6 col-sm-7 wow fadeInLeft">
+		  	<div class="contact-info-box address clearfix">
+		    	<h3><i class=" icon-map-marker"></i></h3>
+		    	<span>Boulder, Colorado</span>
+		    </div>
+		    <div class="contact-info-box phone clearfix">
+		    	<h3><i class="fa-phone"></i></h3>
+		    	<span>(734)755-2807</span>
+		    </div>
+		    <div class="contact-info-box email clearfix">
+		    	<h3><i class="fa-pencil"></i></h3>
+		    	<span>hario.mark@gmail.com</span>
+		    </div>
+	    	<ul class="social-link">
+		      <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
+		      <li class="github"><a href="#"><i class="fa-github"></i></a></li>
+		      <li class="linkedIn"><a href="#"><i class="fa-linkedin"></i></a></li>
+	    	</ul>
+		  </div>
+		</div>
+	</section>
 </div>
 <footer class="footer">
     <div class="container">

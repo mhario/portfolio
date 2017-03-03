@@ -53,6 +53,10 @@ a, a:hover, a:active{ outline:0px !important}
 
 /* Primary Styles
 ---------------------------------*/
+.temp{
+  background-color: blue;
+}
+
 body {
 	background:#fff;
 	font-family: 'Open Sans', sans-serif;
@@ -98,8 +102,7 @@ p{
 .header{
 	text-align:right;
   height: 100vh;
-	background:url(../img/bg-top.png) no-repeat right top;
-  background-size:  100% 75vh;
+	background:url(../img/bg-top.png) no-repeat right bottom+20vh;
 	padding: 75vh 0 0 0;
   background-color: #000;
 }
@@ -119,6 +122,8 @@ p{
 .header-text{
 	padding:0;
 	margin:35px 0 55px;
+  list-style: none;
+  color:#da8044;
 }
 .wp-pic{
 	margin-bottom:20px;
@@ -222,7 +227,6 @@ color: #fff;
 
 /* Services
 ---------------------------------*/
-
 .service-list{
 	padding:0 0 0 0;
 	font-size:14px;
@@ -235,6 +239,8 @@ color: #fff;
 .service-list p{
   padding: 1em;
 }
+
+
 /*.service-list-col1 i{
 	font-style:normal;
 	font-size:38px;
@@ -263,6 +269,9 @@ color: #fff;
 	margin-bottom:25px;
 	font-size:14px;
 }
+.featured-box img{
+  vertical-align: center;
+}
 .featured-box h3{
 	margin-bottom:5px;
 }
@@ -278,8 +287,8 @@ color: #fff;
 }
 .featured-box-col1 img{
 	display:block;
-	width:50;
-	height:50;
+	width: 50px;
+	height: 50px;
 }
 .featured-box-col1 i{
 	display:block;
@@ -289,7 +298,11 @@ color: #fff;
 	color:#777777;
 	font-style:normal;
 }
-.featured-box-col2{ overflow:hidden;}
+.featured-box-col2{
+  overflow:hidden;
+  padding-top: 1em;
+  padding-left: 1em;
+}
 .featured-box.magic{
 	background:url(../img/magic.png) left top no-repeat;
 }
