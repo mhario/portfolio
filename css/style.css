@@ -213,7 +213,7 @@ color: #fff;
 
 .main-nav li a:hover{
 	text-decoration:none;
-	color: #7cc576;
+	color: #fff;
 }
 
 .small-logo{
@@ -260,9 +260,9 @@ color: #fff;
 ---------------------------------*/
 .featured-work{
 	font-size:14px;
+  text-align:left;
 }
-.featured-work h2{
-	text-align:left;
+.featured-work h2,h5{
 }
 .skills {
   padding-top: 1em;
@@ -435,16 +435,16 @@ img {
 	font-family: ''Open Sans',sans-serif';
 	font-style: italic;
 }
-
-#client img{
+.project-thumbnail{
+  padding: 15px;
+  padding-left: 75px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.client-part img{
   height:75px;
   width:75px;
-}
-.client{
-	padding:0;
-	margin:20px 0 0;
-	list-style:none;
-	text-align:center;
+  padding: 0;
 }
 .client li{
 	display:inline;
@@ -601,8 +601,7 @@ border: 2px solid #fff;
 .business-talking h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
-	padding:0;
-	margin:20px 0 70px;
+	padding:35px;
 	text-transform:uppercase;
 	font-size:42px;
 	color:#000;
@@ -676,11 +675,14 @@ border: 2px solid #fff;
 .facebook a:hover {
 	background: #3b5998;
 }
-.linkedin a:hover {
-  background: #3b5998;
+.linked-in a:hover {
+  background: #0077b5;
 }
 .github a:hover {
-  background: #3b5998;
+  background: #1b1f23;
+}
+.stack-overflow a:hover {
+  background: #ef8236;
 }
 
 .form{
