@@ -53,9 +53,6 @@ a, a:hover, a:active{ outline:0px !important}
 
 /* Primary Styles
 ---------------------------------*/
-.temp{
-  background-color: blue;
-}
 
 body {
 	background:#fff;
@@ -240,18 +237,6 @@ color: #fff;
   padding: 1em;
 }
 
-
-/*.service-list-col1 i{
-	font-style:normal;
-	font-size:38px;
-	display:block;
-	color:#222;
-	font-family: 'FontAwesome';
-	line-height:38px;
-}*/
-/*.service-list-col2{
-	overflow:hidden;
-}*/
 .main-section.alabaster{
 	background:#fafafa;
 }
@@ -267,6 +252,9 @@ color: #fff;
 .skills {
   padding-top: 1em;
   list-style: none;
+}
+.skills li{
+  overflow: hidden;
 }
 
 .featured-box{
@@ -424,7 +412,7 @@ img {
 	/*background:url(../img/section-bg1.jpg) center center no-repeat;*/
 	background-size:cover;
 	padding:55px 0;
-	text-align:center;
+	text-align:left;
 
 }
 .client-part-haead{
@@ -438,6 +426,7 @@ img {
 .project-thumbnail{
   padding: 15px;
   padding-left: 75px;
+  padding-top: 30px;
   background-color: #fff;
   border-radius: 2px;
 }
@@ -622,6 +611,7 @@ border: 2px solid #fff;
 .contact-info-box{
 	font-size:15px;
 	padding-left:0;
+  margin: auto;
 }
 .contact-info-box h3{
 	font-size: 15px;
@@ -787,7 +777,7 @@ border: 2px solid #fff;
 	text-align:center;
 }
 .copyright a, .credits a{
-	color:#7cc576;
+	color:#da8044;
 	font-weight:600;
 	text-decoration: none;
 	transition:all 0.3s ease-in-out;
@@ -816,7 +806,7 @@ border: 2px solid #fff;
 }
 
 .res-nav_click:hover, .res-nav_click:active, .res-nav_click:focus {
-	color: #7cc576 !important;
+	color: #da8044 !important;
 }
 
 .portfolioContainer{
