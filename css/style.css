@@ -64,7 +64,7 @@ body {
 }
 h2{
 	font-size:34px;
-	color:#222222;
+	color:#da8044;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	letter-spacing: -1px;
@@ -74,7 +74,7 @@ h2{
 }
 h3{
 	font-family: 'Montserrat', sans-serif;
-	color:#222222;
+	color:#da8044;
 	font-size:16px;
 	margin:0 0 5px 0;
 	text-transform:uppercase;
@@ -99,7 +99,8 @@ p{
 .header{
 	text-align:right;
   height: 100vh;
-	background:url(../img/bg-top.png) no-repeat right bottom+20vh;
+	background:url(../img/splash.jpg) no-repeat right;
+  background-size: 100%;
 	padding: 75vh 0 0 0;
   background-color: #000;
 }
@@ -115,6 +116,15 @@ p{
 	margin:0 0 22px 0 ;
 	color:#da8044;
 }
+.header li{
+	font-family: 'Montserrat',sans-serif;
+	font-size:20px;
+	font-weight:400;
+  color:#fff;
+	letter-spacing: -1px;
+	margin:0 0 22px 0 ;
+	color:#fff;
+}
 
 .header-text{
 	padding:0;
@@ -122,31 +132,6 @@ p{
   list-style: none;
   color:#da8044;
 }
-.wp-pic{
-	margin-bottom:20px;
-}
-.we-create li{
-	display:inline-block;
-	font-family: 'Montserrat',sans-serif;
-	font-size:14px;
-	color: #bcbcbc;
-	text-transform: uppercase;
-	font-weight: 400;
-	margin:0 5px 0 0;
-	padding:0 0 0 15px;
-}
-.we-create li:first-child{
-	background:none;
-}
-
-.start-button {
-	padding-left: 0px;
-}
-
-.start-button li a{
-color: #fff;
-}
-
 
 .link{
 	padding:15px 35px;
@@ -247,8 +232,6 @@ color: #fff;
 	font-size:14px;
   text-align:left;
 }
-.featured-work h2,h5{
-}
 .skills {
   padding-top: 1em;
   list-style: none;
@@ -314,7 +297,7 @@ color: #fff;
 	padding:10px 22px;
 	font-size:12px;
 	line-height:20px;
-	color:#222222;
+	color:#da8044;
 	border-radius:4px;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
