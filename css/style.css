@@ -223,7 +223,7 @@ p{
 }
 
 .main-section.alabaster{
-	background:#fafafa;
+	background:#f0f0f0;
 }
 
 /* Featured Work
@@ -453,7 +453,7 @@ border: 2px solid #fff;
 	margin: 0 20px;
 }
 .main-section.team{
-	padding:0 0 110px 0;
+	padding:55px 0 110px 0;
 }
 .main-section.team h6{
 	margin-bottom:40px;
