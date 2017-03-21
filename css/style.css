@@ -203,18 +203,18 @@ p{
 }
 
 
-/* Services
+/* About
 ---------------------------------*/
-.service-list{
+.about-list{
 	padding:0 0 0 0;
 	font-size:14px;
 	margin-bottom:40px;
 }
-.service-list-col1{
+.about-list-col1{
 	float:left;
 	width:60px;
 }
-.service-list p{
+.about-list p{
   padding: 1em;
 }
 
@@ -276,19 +276,19 @@ p{
   padding-left: 1em;
 }
 
-/* Portfolio
+/* skills
 ---------------------------------*/
-.Portfolio-nav{
+.skills-nav{
 	padding:0;
 	margin:0 0 45px 0;
 	list-style:none;
 	text-align:center;
 }
-.Portfolio-nav li{
+.skills-nav li{
 	margin:0 10px;
 	display:inline;
 }
-.Portfolio-nav li a{
+.skills-nav li a{
 	display:inline-block;
 	padding:10px 22px;
 	font-size:12px;
@@ -303,7 +303,7 @@ p{
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
-.Portfolio-nav li a:hover{
+.skills-nav li a:hover{
 	background:#FFF;
 	color:#fff;
 	text-decoration:none;
@@ -314,7 +314,7 @@ p{
 	padding-left:15px;
 }
 
-.Portfolio-box{
+.skills-box{
 	text-align:center;
 	margin-bottom:30px;
 	height:350px;
@@ -323,18 +323,18 @@ p{
 	float:left;
 	padding:0;
 }
-.Portfolio-box img{
+.skills-box img{
 	margin-bottom:25px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.Portfolio-box img:hover {
+.skills-box img:hover {
 	opacity: 0.6;
 }
 
-.service-img img{
+.about-img img{
    max-width:100%;
 }
 
@@ -357,16 +357,16 @@ p{
 	padding-bottom:60px;
 }
 
-/* Clients
+/* projects
 ---------------------------------*/
-.client-part{
+.project-part{
 	/*background:url(../img/section-bg1.jpg) center center no-repeat;*/
 	background-size:cover;
 	padding:55px 0;
 	text-align:left;
 
 }
-.client-part-haead{
+.project-part-haead{
 	color:#fdfdfd;
 	font-size:28px;
 	line-height:41px;
@@ -381,29 +381,29 @@ p{
   background-color: #fff;
   border-radius: 2px;
 }
-.client-part img{
+.project-part img{
   height:75px;
   width:75px;
   padding: 0;
 }
-.client li{
+.project li{
 	display:inline;
 	margin:0 15px;
 }
-.client li a{
+.project li a{
 	display:inline-block;
 }
-.client li a img{
+.project li a img{
 	margin-bottom:15px;
 	border-radius:50%;
 }
-.client li a:hover{
+.project li a:hover{
 	text-decoration:none;
 }
-.client li a h3{
+.project li a h3{
 	color:#ffffff;
 }
-.client li a span{
+.project li a span{
 	color:#f1f1f1;
 }
 .quote-right{
@@ -448,44 +448,44 @@ border: 2px solid #fff;
 	display:inline-block;
 	margin: 0 20px;
 }
-.main-section.team{
+.main-section.media{
 	padding:55px 0 110px 0;
 }
-.main-section.team h6{
+.main-section.media h6{
 	margin-bottom:40px;
 }
 
 
-/* Team
+/* media
 ---------------------------------*/
-.team-leader-block{
+.media-leader-block{
 	max-width:993px;
 	margin:0 auto;
 }
-.team-leader-box{
+.media-leader-box{
 	width:30.66%;
 	margin-right: 3.82979%;
 	overflow: hidden;
 	text-align: center;
 	float: left;
 }
-.team-leader-box span{
+.media-leader-box span{
 	display:block;
 }
-.team-leader-box:nth-of-type(3n+0){ margin:0;}
-.team-leader{
+.media-leader-box:nth-of-type(3n+0){ margin:0;}
+.media-leader{
 	width:auto;
 	height:auto;
 	position:relative;
 	margin:7px 7px 25px 7px;
 }
 
-.team-leader img{
+.media-leader img{
 	display:block;
 	border-radius:25%;
   margin: auto;
 }
-.team-leader ul{
+.media-leader ul{
 	display:block;
 	opacity:0;
 	padding:0;
@@ -502,11 +502,11 @@ border: 2px solid #fff;
 	-moz-transition:all 0.6s ease-in-out;
 	-webkit-transition:all 0.6s ease-in-out;
 }
-.team-leader ul li{
+.media-leader ul li{
 	display:inline;
 	margin:0 11px;
 }
-.team-leader ul li a{
+.media-leader ul li a{
 	font-family: 'FontAwesome';
 	display:inline-block;
 	font-size:28px;
@@ -515,19 +515,19 @@ border: 2px solid #fff;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
-.team-leader ul li a:hover, .team-leader ul li a:focus{
+.media-leader ul li a:hover, .media-leader ul li a:focus{
 	text-decoration:none;
 }
-.team-leader ul li a.fa-twitter:hover{
+.media-leader ul li a.fa-twitter:hover{
 	color:#55acee;
 }
-.team-leader ul li a.fa-facebook:hover{
+.media-leader ul li a.fa-facebook:hover{
 	color:#3b5998;
 }
-.team-leader ul li a.fa-pinterest:hover{
+.media-leader ul li a.fa-pinterest:hover{
 	color:#cb2026;
 }
-.team-leader ul li a.fa-google-plus:hover{
+.media-leader ul li a.fa-google-plus:hover{
 	color:#dd4b39;
 }
 
