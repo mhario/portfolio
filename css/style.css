@@ -531,14 +531,15 @@ border: 2px solid #fff;
 	color:#dd4b39;
 }
 
-/* Talk Business
+/* Contact
 ---------------------------------*/
-.business-talking{
-	background-color: #da8044;
-	padding:60px 0 10px;
-	text-align:left;
+.main-section.contact{
+	padding:90px 0 100px;
+	background-color:#da8044;
+  text-align:left;
 }
-.business-talking h2{
+
+.main-section.contact h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	padding:35px;
@@ -546,44 +547,20 @@ border: 2px solid #fff;
 	font-size:42px;
 	color:#000;
 }
-.business-talking i{
-  padding: 15px 0;
-}
 
-/* Contact
----------------------------------*/
-.main-section.contact{
-	padding:90px 0 100px;
-}
-
-.main-section.contact{
-	background-color:#da8044;
-}
-.contact-info-box{
-	font-size:15px;
-	padding-left:0;
-  margin: auto;
-}
-.contact-info-box h3{
-	font-size: 15px;
-	font-weight:400;
-	float:left;
-	line-height:28px;
-  color:#fff;
-  margin-right:15px;
-}
-.contact-info-box h3 i{
+.contact-info-box i{
 	font-style:normal;
 	font-size:18px;
 	color:#222222;
 	font-family: 'FontAwesome';
 	font-weight:normal;
-	margin-right:7px;
+	margin-right:25px;
 }
 
 .contact-info-box span{
+  padding-top:4px;
 	line-height:28px;
-	display:block;
+	display:inline-block;
 	overflow:hidden;
   color:#fff;
 }
