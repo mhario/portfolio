@@ -54,6 +54,9 @@ a, a:hover, a:active{ outline:0px !important}
 /* Primary Styles
 ---------------------------------*/
 
+.container {
+  min-width:300px;
+}
 body {
 	background:#fff;
 	font-family: 'Open Sans', sans-serif;
@@ -308,7 +311,6 @@ p{
 	color:#fff;
 	text-decoration:none;
 }
-
 .portfolioContainer{
 	margin:0 auto;
 	padding-left:15px;
@@ -534,7 +536,7 @@ border: 2px solid #fff;
 /* Contact
 ---------------------------------*/
 .main-section.contact{
-	padding:90px 0 100px;
+	padding:90px 0 90px;
 	background-color:#da8044;
   text-align:left;
 }
@@ -563,14 +565,16 @@ border: 2px solid #fff;
 	display:inline-block;
 	overflow:hidden;
   color:#fff;
+
 }
 .social-link{
-	padding:35px 0;
-	margin:0 0 0 68px;
 	display:block;
 	overflow:hidden;
 	list-style:none;
+  min-width: 300px;
+  padding: 35px;
 }
+
 .social-link li{
 	float:left;
 	margin-right:8px;
